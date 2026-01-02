@@ -34,17 +34,19 @@
             </select>
 <!-- fieldset3 -->
         </fieldset>
-        <fieldset>Mission Log & Evidence</fieldset>
+        <fieldset>
+        <legend>Mission Log & Evidence</legend>
         <label for="SOS-Message:">SOS Message:</label>
-        <textarea id="sos-message" name="sos_message" rows="3"  placeholder="Describe your situation..." required>textarea</textarea>
+        <textarea id="sos-message" name="sos_message" rows="3"  placeholder="Describe your situation..." required></textarea>
 
         <div>
-            <input type="checkbox" id="quarantine " name="quarantine" required>
+            <input type="checkbox" id="quarantine" name="quarantine" required>
             <label for="quarantine">I agree to quarantine protocols.</label>
         </div>
 <!-- buttons -->
         <button type="submit">INITIATE TRANSMISSION</button>
         <button type="reset">RESET SYSTEM</button>
+        </fieldset>
     </form>
     <script src="./scripts/launch.js"></script>
 </body>
